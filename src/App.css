@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.ul{
+  list-style-type: none;
+}
+.li{
+  list-style-type: none;
+}
+
+.links{
+  list-style-type: none;
+
+}
+
+.links li{
+  text-decoration: none !important;
+  font-size: 30px;
+  text-decoration-style: none;
+}
+a:-webkit-any-link {
+  text-decoration: nonecx;
+}
+
+.links li:visited{
+  text-decoration-line: none;
+  font-size: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.question-name{
+  color: #00067e;
+}
+.question-name1{
+  color: #3030d5;
+}
+.questions {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,18,180,1) 30%, rgba(0,6,126,1) 64%, rgba(27,35,235,1) 100%);
+  border-radius: 14%;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 0;
+}
+.questions-1{
+  width: 22%;
+}
+.questions-2{
+  width: 22%;
+}
+.answerblock{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: 16px;
+  border : groove 8px #E96301;
+  padding: 4px 48px;
+  visibility: visible;
+}
+.block-1{
+  visibility:hidden;
+}
+.block-2{
+  visibility: hidden;
+}
+.block-3{
+  visibility: hidden;
+}
+.block-4{
+  visibility: hidden;
+}
+.block-5{
+  visibility: hidden;
+}
+.block-6{
+  visibility: hidden;
+}
+.lives{
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  color: #00067e;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.x1{
+  margin-top: 0;
+  margin-bottom: 0;
+  visibility: hidden;
+}
+.x2{
+  margin-top: 0;
+  margin-bottom: 0;
+  visibility: hidden;
+}
+.x3{
+  margin-top: 0;
+  margin-bottom: 0;
+  visibility: hidden;
+}
